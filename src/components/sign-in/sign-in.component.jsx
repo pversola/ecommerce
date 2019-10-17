@@ -6,6 +6,7 @@ import { auth, signInWithGoogle } from '../../firebase/firebase.utils'
 
 import {
     SignInContainer,
+    SignInTitle,
     ButtonsContainer
 } from './sign-in.styles'
 
@@ -40,7 +41,7 @@ class SignIn extends Component{
     render() {
         return (
             <SignInContainer>
-                <h2>I already have an account</h2>
+                <SignInTitle>I already have an account</SignInTitle>
                 <span>Sign in with your email and password</span>
 
                 <form onSubmit={this.handleSubmit}>

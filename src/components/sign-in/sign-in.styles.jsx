@@ -6,8 +6,8 @@ export const SignInContainer = styled.div`
     flex-direction: column;
 `
 
-export const TitleContainer = styled.div`
-    margin: 10px;
+export const SignInTitle = styled.h2`
+    margin: 10px 0;
 `
 
 export const ButtonsContainer = styled.div`
